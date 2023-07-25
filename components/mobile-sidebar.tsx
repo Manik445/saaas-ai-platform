@@ -1,10 +1,11 @@
+"use client"
 import {Menu} from "lucide-react"
 import { useState , useEffect } from "react"
 import {Button} from "@/components/ui/button"
 import {
   Sheet , 
   SheetContent , 
-  SheetTrigger
+  SheetTrigger   
 } from "@/components/ui/sheet"   
 import SideBar from "./sidebar"
 

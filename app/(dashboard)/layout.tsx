@@ -12,13 +12,9 @@ const DashboardLayout = ({
              md:flex-col md:fixed md:inset-y-0 z-[80]   
              bg-gray-900">
                 <SideBar/>
-                <div>
-                <p>Hello and Welcome</p>
-                </div>
             </div>       
             <div className="md:pl-72">
-                hello contents
-                <Navbar/>
+                <Navbar/>    
                 {children}
             </div>
         </div>
