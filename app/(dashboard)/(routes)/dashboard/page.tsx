@@ -1,3 +1,4 @@
+"use client"
 import { Card } from "@/components/ui/card"
 import {useRouter} from "next/navigation"
 import { Code, ImageIcon, MessageSquare, Music, Video } from "lucide-react"
@@ -41,7 +42,7 @@ const tools = [
     href : "/code"   
   } , 
 ]
-
+    
 
 
 export default function DashboardPage() {
@@ -62,7 +63,7 @@ export default function DashboardPage() {
           onClick={()=>router.push(tool.href)}    
            key={tool.href}
            className="p-4 border-black/5 flex items-center 
-            justify-center  hover:shadow-md transition
+            justify-between hover:shadow-md transition
            cursor-pointer"
           >
             <div className="flex items-center gap-x-4">
